@@ -1,0 +1,32 @@
+.edit-form .title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.edit-form {
+    text-align: center;
+}
+.edit-form input {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+}
+.edit-form button {
+    background: white;
+    border: 2px solid #50005a;
+    color: #50005a;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.edit-form button:hover {
+    color: white;
+}
+
+.error-msg {
+    color : red
+}
